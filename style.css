@@ -34,6 +34,8 @@ h2 {
 #game img{
     width: 100px;
     position: absolute;
+    top: 0;
+    left: 0;
 }
 #buttons #shootbutton{
     width: 120px;
@@ -45,6 +47,7 @@ h2 {
     background-image: url("maxresdefault.jpg");
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 .buttonArrow{
     width: 80px;
