@@ -37,6 +37,9 @@ h2 {
     top: 0;
     left: 0;
 }
+#stalker{
+    transition: transform 3s;
+}
 #buttons #shootbutton{
     width: 120px;
     float: right;
@@ -69,4 +72,7 @@ h2 {
 }
 #buttons{
     position: relative;
+}
+#game .bubble{
+    width: 30px;
 }
